@@ -3,23 +3,23 @@ const donasi = (Ig, name) => {
 ┏━━━━━━━━━━━━━━━━━━━━
 ┃          𝗗𝗢𝗡𝗔𝗦𝗜  
 ┣━━━━━━━━━━━━━━━━━━━━
-┣━⊱ *DONASI SEIKHLASNYA:)* ❉⊰━━✿
+┣━⊱ *DOAR o mais rápido possível:)* ❉⊰━━✿
 ┃  
-┣━⊱ *DANA*
-┣⊱ HUBUNGI OWNER AJA
-┣━⊱ *PULSA*
-┣⊱ HUBUNGI OWNER AJA
+┣━⊱ *FUNDO*
+┣⊱ SOMENTE PARA O PROPRIETÁRIO
+┣━⊱ *PULSO*
+┣⊱ SOMENTE PARA O PROPRIETÁRIO
 ┃
 ┣━━━━━━━━━━━━━━━━━━━━
 ┃  *BOT BY ${name}*
 ┗━━━━━━━━━━━━━━━━━━━━
 Note:
-Jika Gamau Donasi Setidaknya Follow IG Ngab:D
-Kalo Dah Donasi Silahkan Invit Di Group Kalian:)
-Makasih:)
+Se você doar pelo menos siga IG Ngab: D
+Se você doar, convide seu grupo :)
+Obrigado:)
 
-PENGGANTI DONASI GAN!!!
-https://youtube.com/c/FadhilGraphy
+SUBSTITUIÇÃO DE DOAÇÃO, GAN!!!
+https://www.youtube.com/channel/UCVxAOowm9sd5LSM4bSPmkXA
 ${Ig}
 
 `
