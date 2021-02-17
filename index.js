@@ -1,6 +1,6 @@
 /*
-* ⚠️WAJIB DIBACA!!!
-* MAU NGAPAIN SU JANGAN MODAL NAMA DOANK!!
+* ⚠️LEITURA OBRIGATÓRIA!!!
+* DESEJANDO FAZER SUPREMO NOME DE NÃO MAIÚSCULA DOANK!!
 * KASIH CREDIT GUA SU, GAK KASIH GA UP SC LAGI!!!
 * SCRIPT FROM FARHAN X CODE ( Fxc7 )
 * REMAKE OF FADHIL GRAPHY × BRYAN GAY:V
@@ -77,10 +77,10 @@ const blocked = JSON.parse(fs.readFileSync('./database/json/blocked.json'))
 const anlink = JSON.parse(fs.readFileSync('./database/json/antilink.json'))
 
 const vcard = 'BEGIN:VCARD\n'
-            + 'VERSION:3.0\n'
+            + 'VERSION:8.0\n'
             + 'FN:FADHIL GRAPHY\n'//GANTI NAMA LU COK
-            + 'ORG:Creator FadhilBot;\n'//GANTI NAMA LU!!
-            + 'TEL;type=CELL;type=VOICE;waid=6288221608614:+62 882-2160-8614\n'//GANTI NOMOR LU
+            + 'ORG:Creator ALNBot;\n'//GANTI NAMA LU!!
+            + 'TEL;type=CELL;type=VOICE;waid=558688036194:+55 86 8803-6194\n'//GANTI NOMOR LU
             + 'END:VCARD'
 
 limitt = 'UNLIMITED'
@@ -101,15 +101,15 @@ async function starts() {
 	client.logger.level = 'warn'
 	console.log(banner.string)
 	client.on('qr', () => {
-		console.log(color('[','white'), color('!','red'), color(']','white'), color('BURUAN SCAN!! Subscribe Fadhil Graphy'))
+		console.log(color('[','white'), color('!','red'), color(']','white'), color('HUNT SCAN !! Assine Fadhil Graphy'))
 	})
 
 	fs.existsSync('./Fadhil.json') && client.loadAuthInfo('./Fadhil.json')
 	client.on('connecting', () => {
-		start('2', 'Mencari doi baru...')
+		start('2', 'Procurando por um novo doi...')
 	})
 	client.on('open', () => {
-		success('2', 'Mendapatkan doi baru!')
+		success('2', 'Obtenha um novo doi!')
 	})
 	await client.connect({timeoutMs: 30*1000})
         fs.writeFileSync('./Fadhil.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
@@ -126,9 +126,9 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Halo @${num.split('@')[0]}\nSelamat datang di group *${mdata.subject}*\n*intro dong biar semua nya kenal:)*\n\n*MEMBER BARU MAINAN BARU:D*`
+				teks = `Halo @${num.split('@')[0]}\nBem vindo ao grupo *${mdata.subject}*\n*introdução para que todos saibam:)*\n\n*Por favor não seja um ghost :D*`
 				let buff = await getBuffer(ppimg)
-				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
+				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"tipo mencionado": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
 				try {
@@ -136,9 +136,9 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Sayonara @${num.split('@')[0]}👋`
+				teks = `Saiu mais um ARROMBADO(A), não faz falta, Adeus... @${num.split('@')[0]}👋`
 				let buff = await getBuffer(ppimg)
-				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
+				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"tipo mencionado": [num]}})
 			}
 		} catch (e) {
 			console.log('Error : %s', color(e, 'yellow'))
@@ -164,7 +164,7 @@ async function starts() {
 			const content = JSON.stringify(mek.message)
 			const from = mek.key.remoteJid
 			const type = Object.keys(mek.message)[0]
-			const FadhilGraphy = ["6288221608614@s.whatsapp.net"]
+			const FadhilGraphy = ["558688036194@s.whatsapp.net"]
 			const farhan = mek.message.conversation
 			const insom = from.endsWith('@g.us')
 			const nameReq = insom ? mek.participant : mek.key.remoteJid
@@ -186,21 +186,21 @@ async function starts() {
 			
 
 			mess = {
-				wait: '*[ WAIT ]* ⏳Sedang Di Proses...',
-				success: '*[💯] Sukses...*',
+				wait: '*[ WAIT ]*⏳ espera está em andamento...',
+				success: '*[💯] sucesso...*',
 				error: {
-					stick: ' *[⚠️]Gagal, Terjadi Kesalahan Pada Saat Mengkonversi Gambar Ke Sticker*',
-					Iv: '*[⚠️]Maaf Link Yang Anda Kirim Tidak Valid!!*'
+					stick: ' *[⚠️]falhou, ocorreu um erro ao converter a imagem em um adesivo*',
+					Iv: '*[⚠️]desculpe, link inválido!!*'
 				},
 				only: {
-					group: '*[⚠️]Maaf Perintah Ini Hanya Dapat Di Gunakan Di Dalam Group!*',
-					benned: '*[⚠️]Maaf Nomor Kamu Telah Di Banned Oleh Owner,Hubuni Owner Agar Membuka Banned Anda*',
-					ownerG: '*[⚠️]Maaf Perintah Ini Hanya Dapat Di Gunakan Oleh Owner Group!*',
-					ownerB: '*[⚠️]Maaf Perintah Ini Hanya Dapat Di Gunakan Oleh Owner Bot!* ',
-					premium: '*[⚠️]Maaf Perintah Ini Hanya Dapat Di Gunakan Oleh User Premium!!*',
-					userB: `[ ⚠️UNREGISTED⚠]\n\n️Hai Kak *${pushname2}* Kamu Belum Menjadi Teman *${name}* \nSilahlan Daftar Dulu Yaa Dengan Cara\n\n Ketik ${prefix}daftar Fadhil/17`,
-					admin: '*[⚠️]Maaf Perintah Ini Hanya Dapat Di Gunakan Oleh Admin Group!*',
-					Badmin: '*[⚠️]Maaf Perintah Ini Hanya Bisa Di Gunakan Ketika Bot Menjadi Admin!*'
+					group: '*[⚠️]DESCULPE, ESTE PEDIDO SÓ PODE SER USADO EM GRUPO!*',
+					benned: '*[⚠️]sᴇᴜ ɴᴜᴍᴇʀᴏ ᴇsᴛᴀ́ ᴘʀᴏɪʙɪᴅᴏ ᴍᴀɢᴀɢᴏ, ᴄʜᴀᴍᴀ ᴍᴇᴜ ᴘʀᴏᴘʀɪᴇᴛᴀ́ʀɪᴏ ᴘᴀʀᴀ ᴅᴇsʙᴀɴɪʀ xᴅ xᴅ*',
+					ownerG: '*[⚠️]ᴇsᴛᴇ ᴘᴇᴅɪᴅᴏ sᴏ́ ᴘᴏᴅᴇ sᴇʀ ᴜsᴀᴅᴏ ᴘᴇʟᴏ ɢʀᴜᴘᴏ ᴅᴇ ᴘʀᴏᴘʀɪᴇᴛᴀ́ʀɪᴏs!*',
+					ownerB: '*[⚠️]ᴅᴇsᴄᴜʟᴘᴇ, ᴇsᴛᴇ ᴘᴇᴅɪᴅᴏ sᴏ́ ᴘᴏᴅᴇ sᴇʀ ᴜsᴀᴅᴏ ᴘᴇʟᴏ ᴘʀᴏᴘʀɪᴇᴛᴀ́ʀɪᴏ ʙᴏᴛ!* ',
+					premium: '*[⚠️]ᴅᴇsᴄᴜʟᴘᴇ ᴇsᴛᴇ ʀᴇᴄᴜʀsᴏ ᴘᴀʀᴀ ᴏs ᴜsᴜᴀ́ʀɪᴏs ᴘʀᴇᴍɪᴜᴍ!!*',
+					userB: `[ ⚠️NÃO REGISTRADO⚠]\n\n️Olá ${pushname2}, Você não está registrado no banco de dados do ALNBOT8, digite: ${prefix}daftar`,
+					admin: '*[⚠️]sɪʟᴇɴᴄɪᴏ ᴍᴇᴍʙʀᴏ ᴄᴏᴍᴜᴍ, ᴠᴏᴄᴇ̂ ɴᴀ̃ᴏ ᴛᴇᴍ ᴍᴏʀᴀʟ ᴘᴀʀᴀ ᴜsᴀʀ ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅo!*',
+					Badmin: '*[⚠️]ᴅᴇsᴄᴜʟᴘᴇ, ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ sᴏ́ ᴘᴏᴅᴇ sᴇʀ ᴜsᴀᴅᴏ ǫᴜᴀɴᴅᴏ ʙᴏᴛs sᴇ ᴛᴏʀɴᴀᴍ ᴀᴅᴍɪɴ!*'
 				}
 			}
 			
@@ -208,20 +208,20 @@ async function starts() {
 			
 			]
 			const ownerNumber = [
-			"6288221608614@s.whatsapp.net"//GANTI NOMOR LU
+			"558688036194@s.whatsapp.net"//GANTI NOMOR LU
 			]
 			premium = [
-			"6288221608614@s.whatsapp.net","6283102650464@s.whatsapp.net"//GANTI NOMOR YAG MAU DI PREM, GABISA NYIMPEN DI DATABASE!!
+			"558688036194@s.whatsapp.net","558688036194@s.whatsapp.net"//GANTI NOMOR YAG MAU DI PREM, GABISA NYIMPEN DI DATABASE!!
 			]
 			
 			const apakahh = [
-            'Ya','Tidak','Ga tau','Mungkin','Coba Tnya Owner'
+            'Sim','Não','Não sei','Talvez','Tente perguntar ao proprietário'
             ]
             const bisakahh = [
-            'Bisa','Tidak Bisa','Ga tau','Mungkin','Coba Tnya Owner'
+            'Sim','Não','Não','Talvez','Tente perguntar ao proprietário'
             ]
             const kapankahh = [
-            '1 Minggu lagi','1 Bulan lagi','1 Tahun lagi','100 tahun lagi','gatau','2030','1 Jam lagi','1 Menit lagi' 
+            'Mais uma semana','mais 1 mês','mais 1 ano','mais 100 anos','não sei','2030','falta 1 hora','falta 1 minuto'
             ]
             
             const hob =[
@@ -363,7 +363,7 @@ async function starts() {
                 if (!check) {
                     return
                 } else {
-                    reply('*[GROUP LINK DETECTOR!]*\nKamu mengirimkan link grup chat, maaf kamu segera di kick dari grup.').then(() => {
+                    reply('*[DETECTOR DE LINK DE GRUPO!]*\nPROIBIDO LINKS DE OUTROS GRUPOS SEU ARROMBADO(A), será removido.').then(() => {
                         client.groupRemove()
                     })
                 }
@@ -372,15 +372,15 @@ async function starts() {
 			switch(command) {
 			
 		case 'join':
-					if (args.length == 0) return reply(from, `maaf ,bot ini hanya bisa dimasukkan ke grup `, text)
+					if (args.length == 0) return reply(from, `desculpe, este bot só pode ser atribuído a grupos `, text)
 					let linkgrup = `${body.slice(6)}`
 					let islink = linkgrup.match(/(https:\/\/chat.whatsapp.com)/gi)
 					let chekgrup = await client.inviteInfo(linkgrup)
-					if (!islink) return reply(from, 'Maaf link group-nya salah! ', id)
+					if (!islink) return reply(from, 'Desculpe, o link do grupo está errado! ', id)
 					if (isOwnerBot) {
 					  await client.joinGroupViaLink(linkgrup)
 					    .then(async () => {
-					      client.sendMessage(from, 'Berhasil join grup via link!', text)
+					      client.sendMessage(from, 'Entrou no grupo com sucesso através do link!', text)
 					    })
 					} else {
 					  let cgrup = await client.getAllGroups()
@@ -388,10 +388,10 @@ async function starts() {
 					  if (cgrup.size < memberLimit) return client.reply(from, `Sorry, Bot wil not join if the group members do not exceed ${memberLimit} people`, id)
 					  await client.joinGroupViaLink(linkgrup)
 					    .then(async () => {
-					      reply('Berhasil join grup via link!')
+					      reply('Entrou no grupo com sucesso através do link!')
 					    })
 					    .catch(() => {
-					      reply('Gagal!')
+					      reply('Fracassado!')
 					    })
 					}
 					break 
@@ -433,7 +433,7 @@ async function starts() {
 					brainly(`${brien}`).then(res => {
 					teks = '❉───────────────────────❉\n'
 					for (let Y of res.data) {
-						teks += `\n*「 _BRAINLY_ 」*\n\n*➸ Pertanyaan:* ${Y.pertanyaan}\n\n*➸ Jawaban:* ${Y.jawaban[0].text}\n❉───────────────────────❉\n`
+						teks += `\n*「 _CÉREBRO_ 」*\n\n*➸ Pergunta:* ${Y.pertanyaan}\n\n*➸ Resposta:* ${Y.Resposta[0].text}\n❉───────────────────────❉\n`
 					}
 					client.sendMessage(from, teks, text, {quoted: mek, detectLinks: false})
                         console.log(res)
@@ -447,24 +447,24 @@ async function starts() {
 					if (isBanned) return reply(mess.only.benned)   
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
-					if (args.length < 1) return reply('pilih on atau off!!')
+					if (args.length < 1) return reply('selecione ligado ou desligado!!')
 					if (args[0] == 'on') {
-						if (isSimi) return reply('Mode antilink sudah aktif')
+						if (isSimi) return reply('O modo anti-link já está ativo')
 						anlink.push(from)
 						fs.writeFileSync('./src/antilink.json', JSON.stringify(anlink))
 						reply(`Sukses mengaktifkan mode antilink`)
 					} else if (args[0] == 'off') {
 						anlink.splice(from, 1)
 						fs.writeFileSync('./src/antilink.json', JSON.stringify(anlink))
-						reply('Sukes menonaktifkan mode antilink️')
+						reply('O modo anti-link foi desativado com sucesso️')
 					} else {
-						reply('pilih on atau off kak?')
+						reply('selecione on ou off sis?')
 					}
 					break 
 			case 'chatlist':
 					client.updatePresence(from, Presence.composing)
 					var chat = await client.chats.all()
-					teks = 'This is list of chat number :\n'
+					teks = 'Esta é a lista de números do grupo :\n'
 					for (let all of chat) {
 						teks += `~> @${all}\n`
 					}
@@ -509,7 +509,7 @@ async function starts() {
 					umure = reg.split("/")[1];
 						user.push(sender)
 			            fs.writeFileSync('./database/json/user.json', JSON.stringify(user))
-						await costum(`\`\`\`Pendaftaran berhasil dengan SN: 87Y4NG4N5K4MU8U71QC4ND44NJ9\`\`\`\n\n\`\`\`Pada ${date} ${time}\`\`\`\n\`\`\`[Nama]: ${jeneng}\`\`\`\n\`\`\`[Nomor]: wa.me/${sender.split("@")[0]}\`\`\`\n\`\`\`[Umur]: ${umure} Tahun\`\`\`\n\`\`\`[Asal]: ${asal}\`\`\`\n\`\`\`Untuk menggunakan bot\`\`\`\n\`\`\`silahkan\`\`\`\n\`\`\`kirim ${prefix}help/menu\`\`\`\n\`\`\`\nTotal Pengguna: ${user.length} Orang\`\`\``, text, FadhilGraphy, rdaftar)
+						await costum(`\`\`\`O registro foi bem sucedido SN: 87Y4NG4N5K4MU8U71QC4ND44NJ9\`\`\`\n\n\`\`\`Sobre ${date} ${time}\`\`\`\n\`\`\`[Nome]: ${jeneng}\`\`\`\n\`\`\`[Numero]: wa.me/${sender.split("@")[0]}\`\`\`\n\`\`\`[Idade]: ${umure} Ano\`\`\`\n\`\`\`[Asal]: ${asal}\`\`\`\n\`\`\`Para usar o bot\`\`\`\n\`\`\`Por favor\`\`\`\n\`\`\`enviar ${prefix}help/menu\`\`\`\n\`\`\`\nTotal de usuários: ${user.length} Pessoa\`\`\``, text, FadhilGraphy, rdaftar)
 					break 
 					
 			/**************MENU*************/
@@ -823,7 +823,7 @@ async function starts() {
 				    break 
 				case 'owner':
 				case 'creator':
-                 client.sendMessage(from, {displayname: "+62 896-4948-0997", vcard: vcard}, MessageType.contact, { quoted: mek})
+                 client.sendMessage(from, {displayname: "+55 86 8803-6194", vcard: vcard}, MessageType.contact, { quoted: mek})
                  client.sendMessage(from, 'Jika Mau Save Chat Aja Gan Ntar Disave Back:)',text, { quoted: mek} )
                  break
                  case 'fitnah':
@@ -1300,7 +1300,7 @@ async function starts() {
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('6289649480997@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('558688036194@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Request telah di laporkan ke owner BOT, request  yang dapat membebani owner tidak akan ditanggapi.')
                     break
 				case 'meme':
