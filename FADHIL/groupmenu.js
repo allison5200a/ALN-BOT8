@@ -1,6 +1,6 @@
 const groupmenu = (prefix) => { 
 	return `
-╭───「 *GROUP MENU* 」───
+╭───「 *MENU DO GRUPO* 」───
 │
 ├➲ *${prefix}modeanime [On/Off]*
 ├➲ *${prefix}naruto*
@@ -23,7 +23,7 @@ const groupmenu = (prefix) => {
 ├➲ *${prefix}wink*
 ├➲ *${prefix}welcome [On/Off]*
 ├➲ *${prefix}grup [buka/tutup]*
-├➲ *${prefix}antilink [on/off*
+├➲ *${prefix}antilink [on/off]*
 ├➲ *${prefix}ownergrup*
 ├➲ *${prefix}setpp*
 ├➲ *${prefix}infogc*
@@ -52,6 +52,6 @@ const groupmenu = (prefix) => {
 │
 ╰────────────────────
 	
-           *©Fadhil Graphy*`
+           *©ᴀʟɴ ʙᴏᴛs*`
 	}
 exports.groupmenu = groupmenu
