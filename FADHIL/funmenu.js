@@ -1,6 +1,6 @@
 const funmenu = (prefix) => { 
 	return ` 
-╭───「 *FUN & GAME* 」──
+╭───「 *JOGOS DIVERTIDOS* 」──
 │
 ├➲ *${prefix}anjing*
 ├➲ *${prefix}kucing*
@@ -34,10 +34,10 @@ const funmenu = (prefix) => {
 ├➲ *${prefix}caklontong*
 ├➲ *${prefix}family100*
 ├➲ *${prefix}kalkulator [13*12]*
-├➲ *${prefix}wp [gunung]*
+├➲ *${prefix}wp [Montanha]*
 │
 ╰───────────────────
 	
-               *©Fadhil Graphy*`
+               *©ᴀʟɴ ʙᴏᴛs*`
 	}
 exports.funmenu = funmenu
