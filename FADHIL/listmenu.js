@@ -1,5 +1,5 @@
 const listmenu = (prefix) => { 
-	return ` *LIST MENU FADHIL BOT*
+	return ` *LISTA MENU ALN BOT*
 	
 	
 ╭─「 *MEDIA DOWNLOADER* 」──
@@ -16,12 +16,12 @@ const listmenu = (prefix) => {
 ├➲ *${prefix}kbbi*
 ├➲ *${prefix}wait*
 ├➲ *${prefix}trendtwit*
-├➲ *${prefix}google [berita terkini]*
+├➲ *${prefix}google [últimas notícias]*
 ├➲ *${prefix}pinterest*
 ├➲ *${prefix}play*
 ╰─────────────────────
 
-╭────「 *FUN & GAME* 」────
+╭────「 *JOGOS DIVERTIDOS* 」────
 ├➲ *${prefix}anjing*
 ├➲ *${prefix}kucing*
 ├➲ *${prefix}testime*
@@ -62,26 +62,26 @@ const listmenu = (prefix) => {
 ╰─────────────────────
 
 
-╭───「 *OTHER & DEFACE* 」───
+╭───「 *OUTROS E DEFACE* 」───
 ├➲ *${prefix}jarak [Klatem/Jogja]*
-├➲ *${prefix}translate [en/Apa kabar?]*
-├➲ *${prefix}pasangan [Fadhil/Salsa]*
-├➲ *${prefix}gantengcek [Fadhil]*
-├➲ *${prefix}cantikcek [Salsa]*
-├➲ *${prefix}artinama [Fadhil]*
-├➲ *${prefix}persengay [Bryan]*
-├➲ *${prefix}pbucin [Fadhil]*
-├➲ *${prefix}bpfont [Fadhil]*
-├➲ *${prefix}textstyle [Fadhil Graphy]*
+├➲ *${prefix}translate [en/Como você está?]*
+├➲ *${prefix}pasangan [texto1/texto2]*
+├➲ *${prefix}gantengcek [seu texto]*
+├➲ *${prefix}cantikcek [seu texto]*
+├➲ *${prefix}artinama [seu texto]*
+├➲ *${prefix}persengay [seu texto]*
+├➲ *${prefix}pbucin [seu texto]*
+├➲ *${prefix}bpfont [seu texto]*
+├➲ *${prefix}textstyle [seu texto]*
 ├➲ *${prefix}jadwaltv [GTV]*
-├➲ *${prefix}lirik [I am lady]*
-├➲ *${prefix}chord [I am lady]*
+├➲ *${prefix}lirik [nome de um filme]*
+├➲ *${prefix}chord [nome de um filme]*
 ├➲ *${prefix}wiki [Adolf Hitler]*
 ├➲ *${prefix}brainly [pertanyaan]*
 ├➲ *${prefix}resepmasakan [rawon]*
 ├➲ *${prefix}map [Klaten]*
-├➲ *${prefix}film [The Walking Death]*
-├➲ *${prefix}pinterest [gambar kucing]*
+├➲ *${prefix}film [nom de um filme]*
+├➲ *${prefix}pinterest [oque você quer pesquisar?]*
 ├➲ *${prefix}infocuaca [Klaten]*
 ├➲ *${prefix}jamdunia [Indonesia]*
 ├➲ *${prefix}mimpi [Bersamanya]*
@@ -122,39 +122,39 @@ const listmenu = (prefix) => {
 ├➲ *${prefix}bitly [link]*
 ╰─────────────────────
 
-╭───「 *CREATOR MENU* 」───
+╭───「 *MENU CRIADOR* 」───
 ├➲ *${prefix}sticker*
-├➲ *${prefix}quotemaker [tx/wtrmk/tema]*
+├➲ *${prefix}quotemaker [txt/wtrmk/tema]*
 ├➲ *${prefix}nulis [nama/kelas/text]*
 ├➲ *${prefix}trigger [reply image]*
-├➲ *${prefix}rip [reply image]*
-├➲ *${prefix}wasted [reply image]*
-├➲ *${prefix}cphlogo [Fadhil/Graphy]*
-├➲ *${prefix}cglitch [Fadhil/Graphy]*
-├➲ *${prefix}cpubg [Fadhil/Graphy]*
-├➲ *${prefix}cml [Fadhil/Graphy]*
-├➲ *${prefix}tahta [Salsa]*
-├➲ *${prefix}croman [Fadhil dan Salsa]*
-├➲ *${prefix}cthunder [Fadhil Graphy]*
-├➲ *${prefix}cbpink [Fadhil Graphy]*
-├➲ *${prefix}cmwolf [Fadhil Graphy]*
-├➲ *${prefix}csky [Fadhil Graphy]*
-├➲ *${prefix}cwooden [Fadhil Graphy]*
-├➲ *${prefix}cflower [Fadhil Graphy]*
-├➲ *${prefix}clove [Fadhil Graphy]*
-├➲ *${prefix}ccrossfire [Fadhil Graphy]*
-├➲ *${prefix}cnaruto [Fadhil Graphy]*
-├➲ *${prefix}cparty [Fadhil Graphy]*
-├➲ *${prefix}cshadow [Fadhil Graphy]*
-├➲ *${prefix}cminion [Fadhil Graphy]*
-├➲ *${prefix}cneon [Fadhil Graphy]*
-├➲ *${prefix}cneon2 [Fadhil Graphy]*
-├➲ *${prefix}cneongreen [Fadhil Graphy]*
-├➲ *${prefix}c3d [Fadhil Graphy]*
-├➲ *${prefix}csky [Fadhil Graphy]*
-├➲ *${prefix}tts [id Haii]*
-├➲ *${prefix}ttp [Fadhil Graphy]*
-├➲ *${prefix}slide [Fadhil Graphy]*
+├➲ *${prefix}rip [imagem de resposta]*
+├➲ *${prefix}wasted [imagem de resposta]*
+├➲ *${prefix}cphlogo [texto1/texto2]*
+├➲ *${prefix}cglitch [texto1/texto2]*
+├➲ *${prefix}cpubg [texto1/texto2]*
+├➲ *${prefix}cml [texto1/texto2]*
+├➲ *${prefix}tahta [seu texto]*
+├➲ *${prefix}croman [ALN dan Salsa]*
+├➲ *${prefix}cthunder [SEU TEXTO]*
+├➲ *${prefix}cbpink [SEU TEXTO]*
+├➲ *${prefix}cmwolf [SEU TEXTO]*
+├➲ *${prefix}csky [SEU TEXTO]*
+├➲ *${prefix}cwooden [SEU TEXTO]*
+├➲ *${prefix}cflower [SEU TEXTO]*
+├➲ *${prefix}clove [SEU TEXTOy]*
+├➲ *${prefix}ccrossfire [SEU TEXTO]*
+├➲ *${prefix}cnaruto [SEU TEXTO]*
+├➲ *${prefix}cparty [SEU TEXTO]*
+├➲ *${prefix}cshadow [SEU TEXTO]*
+├➲ *${prefix}cminion [SEU TEXTO]*
+├➲ *${prefix}cneon [SEU TEXTO]*
+├➲ *${prefix}cneon2 [SEU TEXTO]*
+├➲ *${prefix}cneongreen [SEU TEXTO]*
+├➲ *${prefix}c3d [SEU TEXTO]*
+├➲ *${prefix}csky [SEU TEXTO]*
+├➲ *${prefix}tts pt [SEU TEXTO]*
+├➲ *${prefix}ttp [SEU TEXTO]*
+├➲ *${prefix}slide [SEU TEXTO]*
 ├➲ *${prefix}stiker*
 ├➲ *${prefix}gifstiker*
 ├➲ *${prefix}toimg*
@@ -164,7 +164,7 @@ const listmenu = (prefix) => {
 ├➲ *${prefix}ocr*
 ╰──────────────────────
 
-╭──────「 *GROUP ONLY* 」───
+╭──────「 *SÓ GRUPO* 」───
 ├➲ *${prefix}modeanime [On/Off]*
 ├➲ *${prefix}naruto*
 ├➲ *${prefix}minato*
@@ -189,7 +189,7 @@ const listmenu = (prefix) => {
 ╭─────────────────────
 ├➲ *${prefix}welcome [On/Off]*
 ├➲ *${prefix}grup [buka/tutup]*
-├➲ *${prefix}antilink [on/off*
+├➲ *${prefix}antilink [on/off]*
 ├➲ *${prefix}ownergrup*
 ├➲ *${prefix}setpp*
 ├➲ *${prefix}infogc*
@@ -220,9 +220,9 @@ const listmenu = (prefix) => {
 ├➲ *${prefix}simih [On/Off]*
 ╰──────────────────────
 
-╭────「 *OWNER ONLY* 」─────
-├➲ *${prefix}addprem [mentioned]*
-├➲ *${prefix}removeprem [mention]*
+╭────「 *SÓ GRUPO* 」─────
+├➲ *${prefix}addprem [@mencionado]*
+├➲ *${prefix}removeprem [@mencionado]*
 ├➲ *${prefix}setppbot*
 ├➲ *${prefix}setreply*
 ├➲ *${prefix}bc*
@@ -239,8 +239,8 @@ const listmenu = (prefix) => {
 ╰──────────────────────
 
 
-╭─────「 *PREMIUM ONLY* 」───
-├➲ *${prefix}playmp3 [I am Lady]*
+╭─────「 *SOMENTE PREMIUM* 」───
+├➲ *${prefix}playmp3 [nome de uma musica]*
 ├➲ *${prefix}fb [link video]*
 ├➲ *${prefix}snack [link snack video]*
 ├➲ *${prefix}ytmp3 [link yt]*
@@ -252,13 +252,13 @@ const listmenu = (prefix) => {
 ├➲ *${prefix}xxx [japan]*
 ├➲ *${prefix}pornhub [GangBang]*
 ├➲ *${prefix}hentai [Random]*
-├➲ *${prefix}ban [TagUser]*
-├➲ *${prefix}unban [TagUser]*
+├➲ *${prefix}ban [@mencionado]*
+├➲ *${prefix}unban [@mencionado]*
 ├➲ *${prefix}bc [teks]*
 ├➲ *${prefix}asupan*
 ╰──────────────────────
 
 	
-               *©Fadhil Graphy*`
+               *©ᴀʟɴ ʙᴏᴛs*`
 	}
 exports.listmenu = listmenu
