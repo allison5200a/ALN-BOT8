@@ -1,4 +1,4 @@
-const help = (prefix, instagram, yt, name, pushname2, user, limitt) => { 
+const help = (prefix, name, pushname2, user, limitt) => { 
 	return `
 
 ╭───────────────────
@@ -49,6 +49,6 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt) => {
 ┃
 ╰────────────────────
 
-         *©Fadhil Graphy*`
+         *©ᴀʟɴ ʙᴏᴛs*`
 }
 exports.help = help
