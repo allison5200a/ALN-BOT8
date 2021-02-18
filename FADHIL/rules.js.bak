@@ -3,12 +3,12 @@ return `
 
  HELLO I`M ${name}
  
-BUDAYAKAN MEMBACA SUPAYA TIDAK BINGUNG.
+CULTURA LENDO PARA NÃO FICAR CONFUSO.
 ╭───────────────────────
-├➲ \`\`\`AKTIF\`\`\`: *${kyun(uptime)}*
-├➲ \`\`\`JAM\`\`\`: *${jam} WIB*
-├➲ \`\`\`TANGGAL\`\`\`: *${tanggal}*
-├➲ \`\`\`VERSION\`\`\`: 99999 TERMUX*
+├➲ \`\`\`ATIVO\`\`\`: *${kyun(uptime)}*
+├➲ \`\`\`HORA\`\`\`: *${jam} WIB*
+├➲ \`\`\`ENCONTRO\`\`\`: *${tanggal}*
+├➲ \`\`\`VERSION\`\`\`: 8.0 TERMUX*
 ╰───────────────────────
  *「RULES ${name}」*
  
@@ -16,7 +16,7 @@ BUDAYAKAN MEMBACA SUPAYA TIDAK BINGUNG.
 ➲ ⚠️*CALL / VC⚠️ = *BANNED + BLOCK*
 
  *「BUGS ${name}」*
-
+ 
 ➲ *1.CHATLIST*
 ➲ *2.CNEON*
 ➲ *3.CNEON2*
@@ -28,53 +28,53 @@ BUDAYAKAN MEMBACA SUPAYA TIDAK BINGUNG.
 
  *「 NOTE ${name} 」*
  
-➲ Bot ini merupakan program open-source (gratis) yang ditulis menggunakan Javascript, kamu dapat menggunakan, menyalin, memodifikasi, menggabungkan, menerbitkan, mendistribusikan, mensublisensikan, dan atau menjual salinan dengan tanpa menghapus author utama dari bot ini.
+➲ Este bot é um programa de código aberto (gratuito) escrito em Javascript, você pode usar, copiar, modificar, combinar, publicar, distribuir, sublicenciar e / ou vender cópias sem remover o autor principal deste bot.
 
-➲Dengan menggunakan bot ini maka anda setuju dengan Syarat dan Kondisi sebagai berikut:
- - Bot tidak menyimpan data anda di server kami.
- - Bot tidak bertanggung jawab atas sticker yang anda buat dari bot ini serta video, gambar maupun data lainnya yang anda dapatkan dari bot ini.
- - Bot tidak boleh digunakan untuk layanan yang bertujuan/berkontribusi dalam: 
-     • seks / perdagangan manusia
-     • perjudian
-     • perilaku adiktif yang merugikan 
-     • kejahatan
-     • kekerasan (kecuali jika diperlukan untuk melindungi keselamatan publik)
-     • pembakaran hutan / penggundulan hutan
-     • ujaran kebencian atau diskriminasi berdasarkan usia, jenis kelamin, identitas gender, ras, seksualitas, agama, kebangsaan
-
-➲ Baileys Typescript/Javascript WhatsApp Web API: https://github.com/adiwajshing/baileys
+➲Ao usar este bot, você concorda com os seguintes Termos e Condições:
+ - O bot não armazena seus dados em nossos servidores.
+ - O bot não é responsável pelos adesivos que você faz a partir deste bot e pelos vídeos, imagens ou outros dados que você obtém deste bot.
+ - Os bots não podem ser usados ​​para serviços que visam / contribuem para: 
+     • sexo / tráfico humano
+     • jogatina
+     • comportamento viciante prejudicial
+     • crime
+     • violência (a menos que necessário para proteger a segurança pública)
+     • queima / desmatamento florestal
+     • discurso de ódio ou discriminação com base na idade, sexo, identidade de gênero, raça, sexualidade, religião, nacionalidade
+     
+➲ Baileys Typescript/Javascript WhatsApp Web API: ......
 
 ➲  *KASIH BOT JEDA 5 DETIK BIAR GA ERROR!!!!*
 
-➲ \`\`\`Bot ini belum selesai sepenuhnya\`\`\`
-    \`\`\`Masih dalam proses pengerjaan\`\`\`
-     \`\`\`Jadi masih jarang aktif, dan\`\`\`
- .    .\`\`\`Maaf Jika Ada Menu Yang Error\`\`\`
+➲ \`\`\`Este bot não está completamente terminado\`\`\`
+    \`\`\`Ainda em progresso\`\`\`
+     \`\`\`Portanto, ainda raramente está ativo, e\`\`\`
+ .    .\`\`\`Desculpe, se houver um menu de erro\`\`\`
  
-➲ \`\`\`Jika Lama Harap Ulangi Command\`\`\`
+➲ \`\`\`Se for antigo, por favor, repita o comando\`\`\`
 
-➲ *Gunakan Command Tanpa [ ]*
+➲ *Use o comando sem [ ]*
 
-➲ \`\`\`Dan Jika Mengalami Error\`\`\`
-    \`\`\`Harap Lapor Owner Dengan Cara\`\`\`
-➲  *${prefix}report* \`\`\`apa pesan errornya\`\`\`
+➲ \`\`\`E se você tiver um erro\`\`\`
+    \`\`\`Informe o proprietário por via\`\`\`
+➲  *${prefix}report* \`\`\`qual é a mensagem de erro\`\`\`
 
-➲ \`\`\`Mau Invit Bot?? Donasi Gan,\`\`\`
-    \`\`\`Kalo Gamau Donasi Follow Ig\`\`\`
+➲ \`\`\`Quer Invit Bot ?? Doe Gan,\`\`\`
+    \`\`\`Se você doar, siga Ig\`\`\`
      \`\`\`@bryan_rafly09\`\`\`
+     
+➲  \`\`\`Você pode publicar suas citações\`\`\`
+ \`\`\`Se os interesses contatarem o proprietário da Aja,\`\`\`
+  \`\`\`Publicar\`\`\`
+   \`\`\`Suas citações,\`\`\`
+    \`\`\`E obrigado pelos amigos "que querem em público\`\`\`
+.    \`\`\`As citações:)\`\`\`
 
-➲  \`\`\`Kalian Bisa Mempublish Quotes Kalian\`\`\`
- \`\`\`Jika Minat Hubungi Aja Owner Buat\`\`\`
-  \`\`\`Mempublish\`\`\`
-   \`\`\`Quotes Kalian,\`\`\`
-    \`\`\`Dan Makasih Buat Temen" Yg Mau Di Public\`\`\`
-.    \`\`\`Quotesnya:)\`\`\`
-
-➲ \`\`\`Kenapa Saya Tambahkan Fitur Premium\`\`\`
-.. \`\`\`You Know Lah Karna Fitur Tersebut\`\`\`
-   \`\`\`Membutuhkan Kuota Banyak Untuk Mendownload\`\`\`
-    \`\`\`Dan Mengirimkan Audio/ Video Yang\`\`\`
-     \`\`\`Anda Minta Mohon Pengertiannya🙂\`\`\`
+➲ \`\`\`Por que eu adiciono recursos premium\`\`\`
+.. \`\`\`Você conhece Lah por causa desses recursos\`\`\`
+   \`\`\`Requer muita cota para fazer o download\`\`\`
+    \`\`\`E transmitir áudio / vídeo Yang\`\`\`
+     \`\`\`Você pergunta, por favor, entenda\`\`\`
 `
 }
 exports.rules = rules
@@ -85,5 +85,5 @@ function kyun(seconds){
   var hours = Math.floor(seconds / (60*60));
   var minutes = Math.floor(seconds % (60*60) / 60);
   var seconds = Math.floor(seconds % 60);
-  return `*${pad(hours)} Jam ${pad(minutes)} Menit ${pad(seconds)} Detik*`
+  return `*${pad(hours)} Hora ${pad(minutes)} Minuto ${pad(seconds)} Segundo*`
 }
