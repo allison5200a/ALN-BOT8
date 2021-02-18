@@ -2,7 +2,7 @@ const nsfwmenu = (prefix) => {
 	return ` 
 ╭─────「 *NSFW MENU* 」───
 │
-├➲ *${prefix}playmp3 [dj I am lady]*
+├➲ *${prefix}playmp3 [nome de uma musica]*
 ├➲ *${prefix}fb [link video]*
 ├➲ *${prefix}snack [link snack video]*
 ├➲ *${prefix}ytmp3 [link yt]*
@@ -14,13 +14,13 @@ const nsfwmenu = (prefix) => {
 ├➲ *${prefix}xxx [japan]*
 ├➲ *${prefix}pornhub [stepMoms]*
 ├➲ *${prefix}hentai [Random]*
-├➲ *${prefix}ban [TagUser]*
-├➲ *${prefix}unban [TagUser]*
+├➲ *${prefix}ban [@mencionado]*
+├➲ *${prefix}unban [@mencionado]*
 ├➲ *${prefix}bc [teks]*
 ├➲ *${prefix}asupan*
 │
 ╰────────────────────
 
-	            *©Fadhil Graphy*`
+	            *©ᴀʟɴ ʙᴏᴛs*`
 	}
 exports.nsfwmenu = nsfwmenu
