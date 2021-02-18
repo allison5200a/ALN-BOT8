@@ -1,10 +1,10 @@
 const ownermenu = (prefix) => { 
 	return ` 
 	
-╭──「 *OWNER ONLY* 」───
+╭──「 *SÓ PROPRIETÁRIO* 」───
 │
-├➲ *${prefix}addprem [mentioned]*
-├➲ *${prefix}removeprem [mention]*
+├➲ *${prefix}addprem [@mencionado]*
+├➲ *${prefix}removeprem [2mencionado]*
 ├➲ *${prefix}setppbot*
 ├➲ *${prefix}setreply*
 ├➲ *${prefix}bc*
@@ -21,6 +21,6 @@ const ownermenu = (prefix) => {
 │
 ╰──────────────────
 	
-            *©Fadhil Graphy*`
+            *©ᴀʟɴ ʙᴏᴛs*`
 	}
 exports.ownermenu = ownermenu
