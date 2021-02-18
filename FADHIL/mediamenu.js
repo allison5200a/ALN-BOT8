@@ -15,12 +15,12 @@ const mediamenu = (prefix) => {
 ├➲ *${prefix}kbbi*
 ├➲ *${prefix}wait*
 ├➲ *${prefix}trendtwit*
-├➲ *${prefix}google [berita terkini]*
+├➲ *${prefix}google [últimas notícias]*
 ├➲ *${prefix}pinterest*
 ├➲ *${prefix}play*
 │
 ╰──────────────────────
 	
-                  *©Fadhil Graphy*`
+                  *©ᴀʟɴ ʙᴏᴛs*`
 	}
 exports.mediamenu = mediamenu
